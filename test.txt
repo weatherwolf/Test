@@ -52,6 +52,9 @@ remove files
 git rm --cached file.name
 -> This works for files that are currently being "followed" by git
 
+git rm "file.name"
+-> removes files that have already been committed
+
 
 ######################
 commit files 
@@ -66,3 +69,21 @@ Other useful commands
 
 git diff
 -> check the difference between the old and new instance of changed files
+
+git restore "file.name"
+-> can restore a file that has been deleted before a commit has happened (not sure about after)
+
+git mv "oldfile.name" "newfile.name"
+-> changes the name of the file to a new name
+
+git log
+-> get a log of all commits and info associated
+
+git log --oneline
+-> get a shorter version of the log of all commits
+
+git log -p
+-> get a log with more information about all commits
+
+git reset committag
+-> reset to previous git commit. find committag by typing git log (--oneline)
