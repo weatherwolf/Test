@@ -1,1 +1,60 @@
 This is a testFile, used to train my skills with github
+
+######################
+User login
+######################
+
+git config --global user.name "username"
+git config --golbal user.email user@email.com
+
+
+
+######################
+initialize branch
+######################
+
+git config --global init.default branch main
+-> names the main branch with the name "main"
+
+
+
+######################
+initialize repository
+######################
+
+git init
+-> initializes an empty github repository
+
+
+
+######################
+get status
+######################
+
+git status
+-> get the status of the files
+
+
+######################
+add files 
+######################
+
+git add file.name
+
+git add --all
+-> adds all the files that are not ignored by .gitignore
+
+
+######################
+remove files 
+######################
+
+git rm --cached file.name
+-> This works for files that are currently being "followed" by git
+
+
+######################
+commit files 
+######################
+
+git commit -m "commit_name"
