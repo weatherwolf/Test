@@ -1,3 +1,7 @@
 This is a test to check if branch is working
 
+<<<<<<< HEAD
 Test for main branch, with possible merge conflicts
+=======
+Test for merge conflicts
+>>>>>>> newBranch
