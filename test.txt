@@ -58,3 +58,11 @@ commit files
 ######################
 
 git commit -m "commit_name"
+
+
+######################
+Other useful commands
+######################
+
+git diff
+-> check the difference between the old and new instance of changed files
