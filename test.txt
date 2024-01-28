@@ -62,6 +62,27 @@ commit files
 
 git commit -m "commit_name"
 
+######################
+branching
+######################
+
+git branch branch.name
+-> add a branch with name branch.name
+
+git branch
+-> check all the branches, and it shows which one we are currently in
+
+git switch (-c) branch.name
+-> change to the branch with name branch.name
+-> -c adds the new branch, and also switches you to that new branch
+
+git merge -m "message" branch.name
+-> merge the branch branch.name into the main branch
+
+git branch -d branch.name
+-> delete a branch branch.name
+
+
 
 ######################
 Other useful commands
